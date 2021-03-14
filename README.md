@@ -6,7 +6,7 @@ _Creacion de Api-Rest con Java y Spring_
 Este Endpoint se encarga de mostrar todos los pedidos a traves del metodo GET, a traves del POST se envian los datos en un json.
 
 ```
-/v1/api/pedidos
+/v1/api
 ```
 Este Endpoint se encarga de mostrar solo un pedido usando un Id( Cedula Cliente )
 
