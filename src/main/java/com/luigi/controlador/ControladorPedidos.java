@@ -22,7 +22,6 @@ public class ControladorPedidos{
 	private IPedidos repositoryPedidos;
 	
 	@GetMapping
-	@RequestMapping("/pedidos")
 	public List<Pedidos> saludo() {
 		return repositoryPedidos.findAll();
 	}
